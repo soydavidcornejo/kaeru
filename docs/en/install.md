@@ -81,7 +81,7 @@ KAERU_FIRMWARE=/path/to/m9-ota-1.0.7.zip ./kaeru.sh build
    ```sh
    adb shell am start -n com.android.fiioupdate/.activity.OtaUpdateActivity
    ```
-   Without a computer, open the firmware update entry in the player's settings.
+   Without a computer, open the **Technical Support** app on the player.
 3. Tap **Local**.
 4. Tap **TF card**.
 5. Select `kaeru-m9-1.0.zip`.
