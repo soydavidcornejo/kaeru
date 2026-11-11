@@ -1,0 +1,43 @@
+# Paquetes que post-instalacion.sh desactiva (pm disable-user). Se pueden reactivar con revertir.sh.
+# Muchos ya no existen en Kaeru (se quitaron del sistema); el script los salta.
+# NUNCA agregar com.android.statementservice (bootloop) ni com.android.fiioupdate (sirve para flashear).
+com.android.cellbroadcastreceiver
+com.android.smspush
+com.android.calllogbackup
+com.android.emergency
+com.android.printspooler
+com.android.printservice.recommendation
+com.svox.pico
+com.android.dreams.basic
+com.android.dreams.phototable
+com.android.egg
+com.android.htmlviewer
+com.android.wallpapercropper
+com.android.wallpaperbackup
+com.android.bluetoothmidiservice
+com.android.managedprovisioning
+com.android.cts.ctsshim
+com.android.cts.priv.ctsshim
+com.android.vpndialogs
+com.android.backupconfirm
+com.android.sharedstoragebackup
+com.android.onetimeinitializer
+com.wh
+com.fiio.image.imageloader
+com.android.providers.downloads.ui
+com.android.pacprocessor
+com.android.proxyhandler
+com.android.carrierconfig
+com.android.providers.blockednumber
+com.android.location.fused
+com.android.certinstaller
+com.android.musicfx
+com.android.captiveportallogin
+com.google.android.inputmethod.pinyin
+com.google.android.inputmethod.korean
+com.google.android.inputmethod.japanese
+com.netease.cloudmusic
+com.now.moov
+com.skysoft.kkbox.android
+com.android.aboutfiio
+com.android.providers.userdictionary

@@ -1,0 +1,14 @@
+name: Idea
+description: Propose a change · Proponer un cambio
+labels: [idea]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What and why · Qué y por qué
+    validations: {required: true}
+  - type: textarea
+    id: riesgo
+    attributes:
+      label: Risk for the player · Riesgo para el reproductor
+      description: Can it stop the player from starting? Does the rescue still work? · ¿Puede impedir que arranque? ¿El rescate sigue funcionando?

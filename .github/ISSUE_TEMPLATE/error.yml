@@ -1,0 +1,27 @@
+name: Problem · Problema
+description: Something does not work · Algo no funciona
+labels: [error]
+body:
+  - type: input
+    id: firmware
+    attributes:
+      label: FiiO firmware before Kaeru · Firmware de FiiO antes de Kaeru
+      placeholder: "1.0.7"
+    validations: {required: true}
+  - type: dropdown
+    id: paso
+    attributes:
+      label: Step · Paso
+      options: [build, flash / flashear, post, spotify, other / otro]
+    validations: {required: true}
+  - type: textarea
+    id: que
+    attributes:
+      label: What happened? · ¿Qué pasó?
+      description: Steps, what you expected, what you got. Paste the last lines of the output. · Pasos, qué esperabas, qué obtuviste. Pega las últimas líneas de la salida.
+    validations: {required: true}
+  - type: input
+    id: sistema
+    attributes:
+      label: Computer OS · Sistema del computador
+      placeholder: macOS 15 / Ubuntu 24.04

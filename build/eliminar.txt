@@ -1,0 +1,39 @@
+# Apps de sistema que Kaeru quita. Una carpeta por linea (ruta dentro de /system).
+# Se borra <carpeta>/<Nombre>.apk y <carpeta>/oat/arm/<Nombre>.odex.
+# NO agregar com.android.statementservice (/priv-app/StatementService): sin ella Android 7 no arranca.
+/app/AboutFiio
+/app/AirPlay
+/app/BasicDreams
+/app/BluetoothMidiService
+/app/CaptivePortalLogin
+/app/CertInstaller
+/app/CtsShimPrebuilt
+/app/DownloadProviderUi
+/app/EasterEgg
+/app/GoogleJapanese
+/app/HTMLViewer
+/app/KoreanInputmethod
+/app/PacProcessor
+/app/PhotoTable
+/app/PicoTts
+/app/PinyinIME
+/app/PrintRecommendationService
+/app/PrintSpooler
+/app/UserDictionaryProvider
+/app/WAPPushManager
+/app/WallpaperBackup
+/priv-app/BackupRestoreConfirmation
+/priv-app/BlockedNumberProvider
+/priv-app/CallLogBackup
+/priv-app/CarrierConfig
+/priv-app/CellBroadcastReceiver
+/priv-app/CtsShimPrivPrebuilt
+/priv-app/EmergencyInfo
+/priv-app/FusedLocation
+/priv-app/ManagedProvisioning
+/priv-app/MusicFX
+/priv-app/OneTimeInitializer
+/priv-app/ProxyHandler
+/priv-app/SharedStorageBackup
+/priv-app/VpnDialogs
+/priv-app/WallpaperCropper

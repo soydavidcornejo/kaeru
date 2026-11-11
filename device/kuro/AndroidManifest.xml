@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="app.kuro" android:versionCode="1" android:versionName="1">
+    <uses-sdk android:minSdkVersion="24" android:targetSdkVersion="25"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+    <application android:label="Kuro" android:hasCode="true">
+        <activity android:name="kuro.Kuro" android:exported="true"
+            android:theme="@android:style/Theme.NoDisplay"/>
+    </application>
+</manifest>

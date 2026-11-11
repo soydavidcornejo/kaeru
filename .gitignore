@@ -1,0 +1,15 @@
+# Nada propietario ni generado entra al repo
+trabajo/
+dist/
+*.zip
+!assets/bootanimation.zip
+*.apk
+*.xapk
+*.img
+*.dat
+*.odex
+*.oat
+*.pk8
+.terminos-privados
+.DS_Store
+__pycache__/

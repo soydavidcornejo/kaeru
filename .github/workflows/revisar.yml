@@ -1,0 +1,22 @@
+name: revisar
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  pruebas:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Herramientas
+        run: sudo apt-get update -q && sudo apt-get install -y -q shellcheck
+      - name: smali (para armar el dex de prueba)
+        run: |
+          curl -fsSL -o /tmp/smali.jar https://bitbucket.org/JesusFreke/smali/downloads/smali-2.5.2.jar
+          echo "9544299578b16f771d8aa8eaefe0d3718ca03478c16f3c356f2fcf1366bfb116  /tmp/smali.jar" | sha256sum -c
+      - name: Pruebas
+        env:
+          KAERU_SMALI: /tmp/smali.jar
+        run: bash pruebas/correr.sh
